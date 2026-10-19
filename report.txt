@@ -1,0 +1,23 @@
+===================================================================
+INTERMODAL ROUTING ENGINE - TECHNICAL SUMMARY
+===================================================================
+
+1. DATASETS
+- Air: US DOT Aviation Data (2024) + OpenFlights
+- Rail: NJ Transit / Amtrak (2019) + OpenStreetMap (Nominatim)
+
+2. GENERATED CSV FILES
+- nodes_airports.csv  : 346 Airport nodes (airport_id,name,city,state,lat,lng,node_type)
+- nodes_stations.csv  : 165 Station nodes (station_id,name,city,state,lat,lng,node_type)
+- edges_flights.csv   : FLIGHT edges - regular lines (origin,dest,day_of_week,dep_time_min,arr_time_min,duration_min,hist_avg_delay_min,hist_delay_prob,flight_num,edge_type)
+- edges_trains.csv    : TRAIN edges - regular lines (origin,dest,day_of_week,dep_time_min,arr_time_min,duration_min,hist_avg_delay_min,hist_delay_prob,train_id,edge_type)
+- edges_transfers.csv : TRANSFER edges - connections between airports and stations (origin,dest,distance_km,duration_min,edge_type)
+
+3. KEY LOGIC & PARAMETERS
+- Schedule Times: Continuous minutes from midnight (0 - 1440 min)
+- Transfer Radius: Max 50 km (Top-2 nearest station per airport)
+- Transfer Asymmetry:
+  * Station -> Airport (TRANSFER_TO_AIRPORT): Travel time + 150 min buffer
+  * Airport -> Station (TRANSFER_TO_STATION): Travel time + 60 min buffer
+- Delay Metrics: Average delay (min) + delay probability (>15 min)
+===================================================================

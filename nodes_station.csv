@@ -1,0 +1,166 @@
+station_id,name,city,state,lat,lng,node_type
+105,New York Penn Station,New York,NY,40.7500792,-73.9913481,Station
+1,Philadelphia,Philadelphia,PA,39.9552836,-75.1821442,Station
+83,Metropark,Edison,NJ,40.5682976,-74.3298744,Station
+107,Newark Penn Station,Newark,NJ,40.7345985,-74.1639563,Station
+63,Hoboken,Hoboken,NJ,40.7433066,-74.0323752,Station
+106,Newark Broad Street,Newark,NJ,40.7476225,-74.1718801,Station
+154,Watsessing Avenue,Bloomfield,NJ,40.7827845,-74.1983268,Station
+19,Bloomfield,Bloomfield,NJ,40.7934789,-74.1979277,Station
+50,Glen Ridge,Glen Ridge,NJ,40.805378,-74.2037566,Station
+148,Trenton,Trenton,NJ,29.6159099,-82.8187446,Station
+38174,Secaucus Lower Lvl,Secaucus,NJ,40.7615,-74.0756,Station
+134,Rutherford,Rutherford,NJ,40.826489,-74.1068091,Station
+43599,Wesmont,Wood-Ridge,NJ,40.8550049,-74.0969839,Station
+46,Garfield,Garfield,NJ,40.8814882,-74.113198,Station
+121,Plauderville,Garfield,NJ,40.884786,-74.1028174,Station
+25,Broadway Fair Lawn,Fair Lawn,NJ,40.9224703,-74.1152085,Station
+126,Radburn Fair Lawn,Fair Lawn,NJ,40.9395539,-74.1214773,Station
+51,Glen Rock Boro Hall,Glen Rock,NJ,40.9620223,-74.1293941,Station
+131,Ridgewood,Ridgewood,NJ,40.9796683,-74.1194403,Station
+64,Ho-Ho-Kus,Ho-Ho-Kus,NJ,40.9976524,-74.110284,Station
+74,Long Branch,Long Branch,NJ,40.3042778,-73.9923596,Station
+40,Elberon,Long Branch,NJ,40.2652944,-73.9974216,Station
+4,Allenhurst,Allenhurst,NJ,40.2362237,-74.0006926,Station
+8,Asbury Park,Asbury Park,NJ,40.2154167,-74.0149835,Station
+22,Bradley Beach,Bradley Beach,NJ,40.2023355,-74.0120814,Station
+15,Belmar,Belmar,NJ,40.1784471,-74.0218037,Station
+141,Spring Lake,Spring Lake,NJ,40.1535132,-74.0293941,Station
+79,Manasquan,Manasquan,NJ,40.126226,-74.049304,Station
+122,Point Pleasant Beach,Point Pleasant Beach,NJ,40.0919203,-74.0482024,Station
+32905,Hamilton,Hamilton Township,NJ,40.2552939,-74.7038183,Station
+125,Princeton Junction,West Windsor,NJ,40.3159898,-74.6241189,Station
+103,New Brunswick,New Brunswick,NJ,40.4966615,-74.4460804,Station
+38,Edison,Edison,NJ,40.5005351,-74.3983939,Station
+84,Metuchen,Metuchen,NJ,40.5431598,-74.3632049,Station
+127,Rahway,Rahway,NJ,40.6083755,-74.2738779,Station
+70,Linden,Linden,NJ,40.6297646,-74.2508742,Station
+41,Elizabeth,Elizabeth,NJ,40.6806935,-74.205615,Station
+37953,Newark Airport,Newark,NJ,40.6890641,-74.1772549,Station
+38187,Secaucus Upper Lvl,Secaucus,NJ,40.7615,-74.0756,Station
+38105,Union,Denver,NJ,39.7533931,-105.000446,Station
+31,Roselle Park,Roselle Park,NJ,40.6645469,-74.2643133,Station
+32,Cranford,Cranford,NJ,40.656539,-74.3035794,Station
+155,Westfield,Westfield,NJ,40.651726,-74.3483059,Station
+44,Fanwood,Fanwood,NJ,40.6413266,-74.3859004,Station
+102,Netherwood,Plainfield,NJ,40.6290506,-74.4033895,Station
+120,Plainfield,Plainfield,NJ,40.6201412,-74.4222416,Station
+36,Dunellen,Dunellen,NJ,40.5892696,-74.4718201,Station
+21,Bound Brook,Bound Brook,NJ,40.5684363,-74.5384889,Station
+24,Bridgewater,Bridgewater Township,NJ,40.5598127,-74.5517146,Station
+138,Somerville,Somerville,NJ,40.5742696,-74.60988,Station
+66,Kingsland,Lyndhurst,NJ,40.811035,-74.1384914,Station
+75,Lyndhurst,Lyndhurst,NJ,40.8122927,-74.1247255,Station
+33,Delawanna,Clifton,NJ,40.8317746,-74.1314936,Station
+115,Passaic,Passaic,NJ,41.0461864,-74.3177933,Station
+29,Clifton,Clifton,NJ,40.8584328,-74.1637553,Station
+116,Paterson,Paterson,NJ,40.9167654,-74.171811,Station
+58,Hawthorne,Hawthorne,NJ,40.949371,-74.1538881,Station
+128,Ramsey Main St,Ramsey,NJ,41.0571636,-74.1421597,Station
+52,Glen Rock Main Line,Glen Rock,NJ,40.9622734,-74.1337229,Station
+151,Waldwick,Waldwick,NJ,41.0109281,-74.1182019,Station
+3,Allendale,Allendale,NJ,41.0413199,-74.1291407,Station
+38417,Ramsey Route 17,Ramsey,NJ,41.0751212,-74.1455238,Station
+78,Mahwah,Mahwah,NJ,41.0887072,-74.1437552,Station
+144,Suffern,Teaneck Township,NY,40.8980417,-74.0259656,Station
+137,Sloatsburg,Ringwood,NJ,41.1199045,-74.2650906,Station
+158,Woodbridge,Woodbridge Township,NJ,40.55418,-74.2860008,Station
+119,Perth Amboy,Perth Amboy,NJ,40.5133218,-74.2724241,Station
+139,South Amboy,South Amboy,NJ,40.4848355,-74.2805339,Station
+37169,Aberdeen-Matawan,Aberdeen Township,NJ,40.4197426,-74.2220141,Station
+59,Hazlet,Hazlet Township,NJ,40.4292165,-74.1648999,Station
+85,Middletown NJ,Middletown Township,NJ,40.3898188,-74.1162152,Station
+130,Red Bank,Red Bank,NJ,40.3470543,-74.0643065,Station
+73,Little Silver,Little Silver,NJ,40.3367769,-74.0470837,Station
+142,Spring Valley,Hardwick Township,NJ,41.0059306,-74.9396162,Station
+100,Nanuet,Nanuet,NY,41.0968,-74.0135,Station
+118,Pearl River,Toms River,NJ,39.9659344,-74.1662767,Station
+109,North Elizabeth,Elizabeth,NJ,40.6804945,-74.2053992,Station
+47,Garwood,Garwood,NJ,40.6517692,-74.3229264,Station
+35,Dover,Dover,NJ,40.883988,-74.5621025,Station
+34,Denville,Denville,NJ,40.8922694,-74.4774255,Station
+91,Morris Plains,Morris Plains,NJ,40.8286096,-74.478349,Station
+92,Morristown,Morristown,NJ,40.7970382,-74.4809868,Station
+30,Convent Station,Morris Township,NJ,40.7794692,-74.444335,Station
+77,Madison,Madison,NJ,40.7598227,-74.417097,Station
+27,Chatham,Chatham,NJ,40.7409242,-74.3836711,Station
+145,Summit,Summit,NJ,40.7182356,-74.3592296,Station
+136,Short Hills,Short Hills,NJ,40.7381585,-74.3377392,Station
+87,Millburn,Millburn,NJ,40.7244443,-74.3069069,Station
+81,Maplewood,Maplewood,NJ,40.7310021,-74.2753932,Station
+140,South Orange,South Orange,NJ,40.7474966,-74.2635376,Station
+97,Mountain Station,South Orange,NJ,40.7552981,-74.2528372,Station
+112,Orange,Orange,NJ,38.2451769,-78.1099718,Station
+23,Brick Church,East Orange,NJ,40.7654209,-74.2189954,Station
+37,East Orange,East Orange,NJ,40.7642404,-74.215011,Station
+160,Wood Ridge,Wood-Ridge,NJ,40.8456555,-74.0879195,Station
+146,Teterboro,Teterboro,NJ,40.8598219,-74.0593075,Station
+43,Essex Street,Hackensack,NJ,40.8788331,-74.0520554,Station
+5,Anderson Street,Hackensack,NJ,40.8943185,-74.0440156,Station
+110,New Bridge Landing,River Edge,NJ,40.9111454,-74.035019,Station
+132,River Edge,River Edge,NJ,40.9287098,-74.0398622,Station
+111,Oradell,Oradell,NJ,40.9543943,-74.0308504,Station
+42,Emerson,Emerson,NJ,40.976209,-74.0262505,Station
+156,Westwood,Westwood,NJ,40.9912087,-74.0326395,Station
+62,Hillsdale,Hillsdale,NJ,41.0025975,-74.0404175,Station
+159,Woodcliff Lake,Woodcliff Lake,NJ,41.0234304,-74.0665297,Station
+114,Park Ridge,Park Ridge,NJ,41.035965,-74.0415551,Station
+90,Montvale,Montvale,NJ,41.0407563,-74.0288633,Station
+14,Bay Street,Montclair,NJ,40.8081888,-74.208741,Station
+94,Mount Tabor,Parsippany-Troy Hills,NJ,40.8713985,-74.4761594,Station
+32906,Jersey Avenue,New Brunswick,NJ,40.4770615,-74.467922,Station
+61,Highland Avenue,Orange,NJ,40.7668357,-74.243628,Station
+38081,Montclair State U,Montclair,NJ,40.8651,-74.1978,Station
+89,Montclair Heights,Montclair,NJ,40.8576232,-74.202584,Station
+95,Mountain Avenue,Montclair,NJ,40.8488446,-74.2054586,Station
+150,Upper Montclair,Montclair,NJ,40.8447225,-74.1999165,Station
+153,Watchung Avenue,Montclair,NJ,40.8295141,-74.2069924,Station
+152,Walnut Street,Montclair,NJ,40.8170143,-74.2096892,Station
+129,Raritan,Raritan,NJ,40.5671022,-74.6347275,Station
+13,Bay Head,Bay Head,NJ,40.0717828,-74.0543036,Station
+104,New Providence,New Providence,NJ,40.6984348,-74.4015405,Station
+99,Murray Hill,New Providence,NJ,40.6953793,-74.4009849,Station
+17,Berkeley Heights,Berkeley Heights,NJ,40.6834349,-74.442653,Station
+48,Gillette,Long Hill Township,NJ,40.6782581,-74.4680716,Station
+143,Stirling,Long Hill Township,NJ,40.6747257,-74.4933902,Station
+88,Millington,Long Hill Township,NJ,40.6773237,-74.5176555,Station
+76,Lyons,Bernards Township,NJ,40.6847817,-74.5495723,Station
+12,Basking Ridge,Bernards Township,NJ,40.7064088,-74.5492725,Station
+18,Bernardsville,Bernardsville,NJ,40.7186805,-74.5692273,Station
+45,Far Hills,Far Hills,NJ,40.684268,-74.6357148,Station
+117,Peapack,Peapack-Gladstone,NJ,40.7087982,-74.6583872,Station
+72,Little Falls,Little Falls,NJ,40.8813513,-74.228185,Station
+39635,Wayne-Route 23,Wayne,NJ,40.9038,-74.257,Station
+98,Mountain View,Wayne,NJ,40.9139509,-74.2677435,Station
+69,Lincoln Park,Lincoln Park,NJ,40.9242652,-74.3020933,Station
+147,Towaco,Montville Township,NJ,40.9230477,-74.3433955,Station
+20,Boonton,Boonton,NJ,40.9025989,-74.4070971,Station
+96,Mountain Lakes,Mountain Lakes,NJ,40.8948212,-74.4329314,Station
+39472,Mount Arlington,Mount Arlington,NJ,40.9259319,-74.6348829,Station
+11,Avenel,Woodbridge Township,NJ,40.5848314,-74.2730161,Station
+67,Lake Hopatcong,Roxbury Township,NJ,40.904011,-74.665452,Station
+101,Netcong,Netcong,NJ,40.8991726,-74.706872,Station
+93,Mount Olive,Mount Olive,NJ,40.8462555,-74.7433061,Station
+49,Gladstone,Peapack-Gladstone,NJ,40.7202907,-74.6662746,Station
+54,Hackettstown,Hackettstown,NJ,40.8538589,-74.8292553,Station
+108,North Branch,Branchburg Township,NJ,40.6020469,-74.6773823,Station
+157,White House,Readington Township,NJ,40.6155126,-74.7707356,Station
+68,Lebanon,Lebanon,NJ,40.6417683,-74.8359987,Station
+6,Annandale,Clinton Township,NJ,40.6475975,-74.8862631,Station
+149,Tuxedo,Hawthorne,NJ,40.9449893,-74.1570699,Station
+57,Harriman,Denville,NJ,40.9018792,-74.4896016,Station
+135,Salisbury Mills-Cornwall,Salisbury Mills,NY,41.4339,-74.1299,Station
+26,Campbell Hall,Newark,NJ,40.741602,-74.1776866,Station
+86,Middletown NY,Montvale,NJ,41.0452647,-74.0137313,Station
+113,Otisville,Otisville,NY,41.4745,-74.4533,Station
+123,Port Jervis,City of Port Jervis,NY,41.3722797,-74.6916731,Station
+60,High Bridge,High Bridge,NJ,40.6670454,-74.8957231,Station
+124,Princeton,Princeton,NJ,40.3496953,-74.6597376,Station
+10,Atlantic City Rail Terminal,Atlantic City,NJ,39.3632972,-74.4416305,Station
+2,Absecon,Absecon,NJ,39.4284503,-74.4957076,Station
+39,Egg Harbor City,Egg Harbor City,NJ,39.5287282,-74.6479364,Station
+55,Hammonton,Hammonton,NJ,39.6366543,-74.8027651,Station
+9,Atco,Waterford Township,NJ,39.7836223,-74.9077919,Station
+71,Lindenwold,Lindenwold,NJ,39.8244477,-74.9970088,Station
+28,Cherry Hill,Cherry Hill Township,NJ,39.9348351,-75.0307264,Station
+43298,Pennsauken,Pennsauken Township,NJ,39.9562238,-75.0579502,Station
