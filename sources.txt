@@ -1,0 +1,16 @@
+train data sets:
+https://www.kaggle.com/datasets/pranavbadami/nj-transit-amtrak-nec-performance?select=2019_01.csv
+https://www.kaggle.com/datasets/pranavbadami/nj-transit-amtrak-nec-performance?select=2019_02.csv
+https://www.kaggle.com/datasets/pranavbadami/nj-transit-amtrak-nec-performance?select=2019_03.csv
+https://www.kaggle.com/datasets/pranavbadami/nj-transit-amtrak-nec-performance?select=2019_04.csv
+https://www.kaggle.com/datasets/pranavbadami/nj-transit-amtrak-nec-performance?select=2019_05.csv
+https://www.kaggle.com/datasets/pranavbadami/nj-transit-amtrak-nec-performance?select=2019_06.csv
+https://www.kaggle.com/datasets/pranavbadami/nj-transit-amtrak-nec-performance?select=2019_07.csv
+https://www.kaggle.com/datasets/pranavbadami/nj-transit-amtrak-nec-performance?select=2019_08.csv
+https://www.kaggle.com/datasets/pranavbadami/nj-transit-amtrak-nec-performance?select=2019_09.csv
+https://www.kaggle.com/datasets/pranavbadami/nj-transit-amtrak-nec-performance?select=2019_10.csv
+https://www.kaggle.com/datasets/pranavbadami/nj-transit-amtrak-nec-performance?select=2019_11.csv
+https://www.kaggle.com/datasets/pranavbadami/nj-transit-amtrak-nec-performance?select=2019_12.csv
+
+flight data set:
+https://www.kaggle.com/datasets/hrishitpatil/flight-data-2024/data?select=flight_data_2024.csv
