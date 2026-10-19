@@ -1,8 +1,8 @@
 station_id,name,city,state,lat,lng,node_type
-105,New York Penn Station,New York,NY,40.7500792,-73.9913481,Station
-1,Philadelphia,Philadelphia,PA,39.9552836,-75.1821442,Station
+105,New York Penn Station,New York,NY,40.7512885,-73.9903622,Station
+1,Philadelphia,Philadelphia,PA,39.9557153,-75.1822001,Station
 83,Metropark,Edison,NJ,40.5682976,-74.3298744,Station
-107,Newark Penn Station,Newark,NJ,40.7345985,-74.1639563,Station
+107,Newark Penn Station,Newark,NJ,40.7344963,-74.163855,Station
 63,Hoboken,Hoboken,NJ,40.7433066,-74.0323752,Station
 106,Newark Broad Street,Newark,NJ,40.7476225,-74.1718801,Station
 154,Watsessing Avenue,Bloomfield,NJ,40.7827845,-74.1983268,Station
@@ -33,7 +33,7 @@ station_id,name,city,state,lat,lng,node_type
 103,New Brunswick,New Brunswick,NJ,40.4966615,-74.4460804,Station
 38,Edison,Edison,NJ,40.5005351,-74.3983939,Station
 84,Metuchen,Metuchen,NJ,40.5431598,-74.3632049,Station
-127,Rahway,Rahway,NJ,40.6083755,-74.2738779,Station
+127,Rahway,Rahway,NJ,40.6077597,-74.2758695,Station
 70,Linden,Linden,NJ,40.6297646,-74.2508742,Station
 41,Elizabeth,Elizabeth,NJ,40.6806935,-74.205615,Station
 37953,Newark Airport,Newark,NJ,40.6890641,-74.1772549,Station

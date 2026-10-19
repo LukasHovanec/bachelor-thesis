@@ -25,8 +25,8 @@ airports_file = DATA_DIR / 'nodes_airport.csv'
 stations_file = DATA_DIR / 'nodes_station.csv'
 
 try:
-    airports = pd.read_csv('airports_file')
-    stations = pd.read_csv('stations_file')
+    airports = pd.read_csv(airports_file)
+    stations = pd.read_csv(stations_file)
 except FileNotFoundError as e:
     print(f"Error loading node files: {e}")
     exit(1)
