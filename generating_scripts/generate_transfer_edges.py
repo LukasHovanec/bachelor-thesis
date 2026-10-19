@@ -1,5 +1,10 @@
 import pandas as pd
 from math import radians, cos, sin, asin, sqrt
+from pathlib import Path
+
+# setup paths relative to project root
+BASE_DIR = Path(__file__).resolve().parent.parent
+DATA_DIR = BASE_DIR / 'data'
 
 # formula to calculate geographic distance in km between two lat/lng points
 def haversine(lat1, lon1, lat2, lon2):
@@ -16,9 +21,12 @@ def haversine(lat1, lon1, lat2, lon2):
 # 1. load airport and station nodes
 print("1. Loading airport and station nodes...")
 
+airports_file = DATA_DIR / 'nodes_airport.csv'
+stations_file = DATA_DIR / 'nodes_station.csv'
+
 try:
-    airports = pd.read_csv('nodes_airport.csv')
-    stations = pd.read_csv('nodes_station.csv')
+    airports = pd.read_csv('airports_file')
+    stations = pd.read_csv('stations_file')
 except FileNotFoundError as e:
     print(f"Error loading node files: {e}")
     exit(1)
@@ -90,7 +98,7 @@ final_cols = ['origin', 'dest', 'distance_km', 'duration_min', 'edge_type']
 output_df = transfers_df[final_cols]
 
 # saving to CSV
-output_file = 'edges_transfers.csv'
+output_file = DATA_DIR / 'edges_transfers.csv'
 output_df.to_csv(output_file, index=False)
 
 print(f"\nDone! Final file '{output_file}' with {len(output_df)} transfer edges was successfully generated.")

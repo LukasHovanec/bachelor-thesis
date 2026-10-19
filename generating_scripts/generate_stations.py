@@ -1,6 +1,12 @@
 import pandas as pd
 import time
 from geopy.geocoders import Nominatim
+from pathlib import Path
+
+# setup paths relative to project root
+BASE_DIR = Path(__file__).resolve().parent.parent
+RAW_DATA_DIR = BASE_DIR / 'raw_data'
+DATA_DIR = BASE_DIR / 'data'
 
 # 1. manually definned stations
 MANUAL_STATIONS = {
@@ -14,7 +20,7 @@ MANUAL_STATIONS = {
 }
 
 # 2. load trains dataset
-input_train_file = 'train_data_2019.csv'
+input_train_file = RAW_DATA_DIR / 'train_data_2019.csv'
 print(f"1. Loading data from {input_train_file}...")
 
 lines = pd.read_csv(
@@ -141,7 +147,7 @@ final_cols = ['station_id', 'name', 'city', 'state', 'lat', 'lng', 'node_type']
 final_stations = stations[final_cols]
 
 # saving to final CSV file
-output_file = 'nodes_station.csv'
+output_file = DATA_DIR / 'nodes_station.csv'
 final_stations.to_csv(output_file, index=False)
 
 print(f"\nDone! Final file '{output_file}' was succesfully generated.")

@@ -1,4 +1,10 @@
 import pandas as pd
+from pathlib import Path
+
+# setup paths relative to project root
+BASE_DIR = Path(__file__).resolve().parent.parent
+RAW_DATA_DIR = BASE_DIR / 'raw_data'
+DATA_DIR = BASE_DIR / 'data'
 
 # calculate time from HHMM to minut from midnight
 def hhmm_to_minutes(hhmm_series):
@@ -8,7 +14,7 @@ def hhmm_to_minutes(hhmm_series):
     return (hours * 60 + minutes) % 1440    # 1440 minutes is full day
 
 # 1. load flights dataset
-input_flight_file = 'flight_data_2024.csv'
+input_flight_file = RAW_DATA_DIR / 'flight_data_2024.csv'
 print(f"1. Loading data from {input_flight_file}...")
 
 # loading columns that we need
@@ -54,8 +60,9 @@ regular_edges['hist_delay_prob'] = regular_edges['hist_delay_prob'].round(3)
 
 # 3. control of integrity with nodes
 # filter nodes that exist also in nodes_airport.csv
+node_file = DATA_DIR / 'nodes_airport.csv'
 try:
-    existing_airports = set(pd.read_csv('nodes_airport.csv')['airport_id'])
+    existing_airports = set(pd.read_csv('node_file')['airport_id'])
     regular_edges = regular_edges[
         regular_edges['origin'].isin(existing_airports) & 
         regular_edges['dest'].isin(existing_airports)
@@ -73,7 +80,7 @@ final_cols = [
 output_df = regular_edges[final_cols]
 
 # saving to CSV
-output_file = 'edges_flights.csv'
+output_file = DATA_DIR / 'edges_flights.csv'
 output_df.to_csv(output_file, index=False)
 
 print(f"\nDone! Final file '{output_file}' was succesfully generated.")

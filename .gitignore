@@ -1,3 +1,2 @@
-flight_data_2024.csv
-train_data_2019.csv
-train/
+raw_data/
+.gitignore

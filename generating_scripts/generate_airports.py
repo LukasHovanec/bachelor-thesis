@@ -1,7 +1,13 @@
 import pandas as pd
+from pathlib import Path
+
+# setup paths relative to project root
+BASE_DIR = Path(__file__).resolve().parent.parent
+RAW_DATA_DIR = BASE_DIR / 'raw_data'
+DATA_DIR = BASE_DIR / 'data'
 
 # 1. load flights dataset
-input_flight_file = 'flight_data_2024.csv'
+input_flight_file = RAW_DATA_DIR / 'flight_data_2024.csv'
 print(f"1. Loading data from {input_flight_file}...")
 
 flights = pd.read_csv(
@@ -56,7 +62,7 @@ final_airports = merged[['airport_id', 'name', 'city', 'state', 'lat', 'lng', 'n
 final_airports = final_airports.dropna(subset=['lat', 'lng'])
 
 # saving to final CSV file
-output_file = 'nodes_airport.csv'
+output_file = DATA_DIR / 'nodes_airport.csv'
 final_airports.to_csv(output_file, index=False)
 
 print(f"\nDone! Final file '{output_file}' was succesfully generated.")
